@@ -1,23 +1,65 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 850px;
+    width: 900px;
     margin: auto;
     border: 1px solid blue;
     
     align-content: center;
     align-items:center;
+
+
 }
+
+@media (max-width: 555px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: auto;
+        border: 1px solid blue;
+        
+        align-content: center;
+        align-items:center;
+    }
+
+    /* .holder1a {
+        height: 450px;
+    } */
+}
+
+
+
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+/* .tiptop {
+    display: flex;
+    width: 850px;
+    margin:auto;
+    /* height: 800px; */
+    /* border: 1px purple;
+    align-content: center;
+    align-items:center;
+    justify-content: center; */
+/* } */
+
+
 
 .navcont {
     display: flex;
     width: 95%;
     height: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px solid red;
     align-items: center;
 
-    /* margin: 10px; */
+    margin: 10px;
     
 }
 
@@ -27,19 +69,93 @@ a {
 
 .holder1 {
     display: flex;
-    width: 90%;
+    width: 95%;
     height:550px;
     justify-content: space-around;
     border: 1px solid green;
 
+    
+}
+
+@media (max-width: 555px) {
+    .holder1 {
+        flex-direction: column;
+        border: 1px solid orange;
+        height: 630px;
+    }
 }
 
 .holder1a {
+    display: flex;
+    flex-direction: column;
     width: 45%;
     border: 1px solid pink;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+}
+
+@media (max-width: 555px) {
+    .holder1a {
+        border: 1px solid teal;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+.holder2 {
+    display: flex;
+    width: 95%;
+    height:550px;
+    justify-content: space-around;
+    border: 1px solid green;
+
+    
+}
+
+
+.holder1b {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid brown;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+}
+
+.holder1b p {
+    font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+@media (max-width: 555px) {
+   
+    .holder1b p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.3rem
+    }
 }
 
 .holderImage {
     border: 1px solid black;
-    /* width: 98%; */
+    width: 90%;
+}
+
+@media (max-width: 555px) {
+    .holderImage {
+        display: none;
+    }
+}
+
+.holderImage2 {
+    border: 1px solid black;
+    width: 90%;
+}
+
+@media (max-width: 555px) {
+    .holderImage2 {
+        height: 200px;
+    }
 }
