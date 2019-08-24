@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    margin: auto;
+    border: 1px solid blue;
+    
+    align-content: center;
+    align-items:center;
+}
+
+.navcont {
+    display: flex;
+    width: 95%;
+    height: 50px;
+    justify-content: space-around;
+    border: 1px solid red;
+    align-items: center;
+
+    /* margin: 10px; */
+    
+}
+
+a {
+    text-decoration: none; 
+}
+
+.holder1 {
+    display: flex;
+    width: 90%;
+    height:550px;
+    justify-content: space-around;
+    border: 1px solid green;
+
+}
+
+.holder1a {
+    width: 45%;
+    border: 1px solid pink;
+}
+
+.holderImage {
+    border: 1px solid black;
+    /* width: 98%; */
+}
