@@ -23,3 +23,18 @@ Starter Questions / Things to Do
 9. I'd like the border aspect of each of the boxes to go away so I can have a cleaner looking site?
 
 10. What else can I do to make this more streamlined and fancy looking?
+
+
+LET'S MAKE IT MOBILE !!!!
+
+1. If everything is within the primary css 'container', and all widths are %'s, and you make one media query for container everything shrinks down auto-magically to fit inside :)
+
+2. Now let's make a column out of the first holder instead of having them side by side ?
+
+3. Let's lign everything up again.  Space out holder1a for the new 'column' view  and make sure nothing is overlapping
+
+4. Let's make a new image class, and one image will shrink to fit, and the other will display none on the tablet view?
+
+FINISH !!!
+
+Solution code will be in the solution branch for you guys :)
